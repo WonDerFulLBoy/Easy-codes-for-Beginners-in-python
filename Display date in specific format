@@ -1,0 +1,7 @@
+# function definition
+def print_date(day, month, year):
+    result = "%d/%d/%d" %(year,month,day)
+    print(result)
+
+# function call
+print_date(10, 12 , 2020)
